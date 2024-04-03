@@ -1,0 +1,48 @@
+/* todoItems.css */
+
+.todo-items {
+    margin-left:-20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 15px 20px; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    margin-bottom: 15px; /* Add some space between items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    width: calc(100% - 40px); /* Make the TodoItems wider */
+}
+
+.todo-items-container {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 50px); /* Adjust width to accommodate cross icon */
+}
+
+.todo-items img {
+    width: 25px; /* Adjust icon size */
+    height: 25px;
+    margin-right: 20px; /* Increase gap between icons and text */
+}
+
+.todo-items-text {
+    font-size: 16px;
+    color: #1b0404; /* Dark text color */
+    flex: 1; /* Allow text to grow to fill available space */
+}
+
+.todoitems-cross-icon {
+    width: 25px; /* Adjust cross icon size to match input */
+    height: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Add smooth transition */
+    margin-left: 100px; /* Increase gap between text and cross icon */
+}
+
+.todoitems-cross-icon:hover {
+    transform: scale(1.2); /* Scale up on hover for interactive feel */
+}
+.line-through{
+    text-decoration: line-through solid #0c0c00 3px;
+}
